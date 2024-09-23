@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - changeSet:
+      id: 20240923_user-related_tables.sql
+      author: Klaudia Janiszewska
+      sqlFile:
+        relativeToChangelogFile: true
+        stripComments: true
+        splitStatements: false
+        path: db.changelog/20240923_user-related_tables.sql
