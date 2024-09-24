@@ -5,23 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="545967d7-eabc-455f-9f1a-6d08190d4fd9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/pl/edu/pjwstk/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/resources/db.changelog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/resources/db.changelog/20240923_user-related_tables.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/pl/edu/pjwstk/entities/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/pl/edu/pjwstk/entities/Authority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/pl/edu/pjwstk/entities/ContactInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/pl/edu/pjwstk/entities/PersonalInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/pl/edu/pjwstk/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/pl/edu/pjwstk/exceptions/UsernameExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/pl/edu/pjwstk/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/pl/edu/pjwstk/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/resources/db.changelog/20240923_delete_user_authority_table_update_user.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/db.changelog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/db.changelog.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +39,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 2
@@ -79,6 +78,10 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pl.edu.pjwstk.exceptions" />
+      <recent name="pl.edu.pjwstk.entities" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\programming\spring\auction\AuctionApp\app" />
     </key>
@@ -118,7 +121,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727118221537</updated>
-      <workItem from="1727118221540" duration="1813000" />
+      <workItem from="1727118221540" duration="10623000" />
     </task>
     <servers />
   </component>
